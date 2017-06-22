@@ -1,0 +1,18 @@
+{
+    "database":{
+        "redis": {
+            "main": {
+                "host": "127.0.0.1,
+                "port": 6379,
+                "db": 0,
+                "max_connections": 8
+            },
+            "msgbus": {
+                "host": "127.0.0.1,
+                "port": 6379,
+                "db": 8,
+                "max_connections": 8
+            }
+        }
+    }
+}
